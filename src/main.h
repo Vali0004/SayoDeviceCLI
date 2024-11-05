@@ -17,12 +17,7 @@ typedef uint32_t in_addr_t;
 #include <sys/types.h>
 #endif // WIN32
 
-
-#define STR_HELP                                                                                                       \
-    "\
--p \t server port\
-\
-"
+#define STR_HELP "-p \t server port"
 
 int httpServer();
 int http(int sClient, in_addr_t sClinentAddr);
